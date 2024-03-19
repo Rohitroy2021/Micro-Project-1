@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --theme-color: #FFCD9E;
+    font-family: Inter, sans-serif;
+    font-feature-settings: 'liga' 1, 'calt' 1;
+}
+
+.main {
+    height: 70vh;
+    background-color: var(--theme-color);
+    padding: 0px;
+    display: flex;
+}
+
+.container1 {
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+.Heading {
+    width: 100%;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.para1 {
+    width: 64%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 17px;
+    color: #484848;
+}
+
+.para2 {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.btn {
+    padding-top: 25px;
+    padding-bottom: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.button1 {
+    text-align: center;
+    width: 335px;
+    height: 57px;
+    border: 4px solid black;
+    border-radius: 8px;
+    color: #888;
+    font-size: 20px;
+}
+
+.button2 {
+    width: 180px;
+    height: 65px;
+    border-color: #282828;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #282828;
+    font-weight: 550;
+    font-size: 20px;
+}
+
+.para3 {
+    margin-left: 30px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 500px;
+}
+
+.container2>img {
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+}
+
+.foot {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
+    font-weight: 300;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: #282828;
+
+}
+
+.ltfoot {
+    color: #FFFFFF;
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 10px;
+    justify-content: right;
+}
+
+.rtfoot {
+    text-align: end;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+ul>li {
+    list-style: none;
+}
+
+li {
+    padding-bottom: 10px;
+}
